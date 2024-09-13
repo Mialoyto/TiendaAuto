@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="combo_tipo_veh">
+        <item>01</item>
+        <item>01</item>
+        <item>01</item>
+    </string-array>
+
+</resources>

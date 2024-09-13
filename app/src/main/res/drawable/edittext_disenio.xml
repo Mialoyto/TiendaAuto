@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Sombra -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#80000000"/> <!-- Color de la sombra con opacidad -->
+            <corners android:radius="8dp"/> <!-- Ajusta el radio para bordes redondeados -->
+        </shape>
+    </item>
+
+    <!-- Fondo del EditText -->
+    <item android:left="2dp" android:right="2dp" android:top="2dp" android:bottom="2dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white"/> <!-- Color de fondo del EditText -->
+            <corners android:radius="8dp"/> <!-- Radio del borde del fondo -->
+        </shape>
+    </item>
+
+
+</layer-list>

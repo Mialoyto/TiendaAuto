@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarVehiculo">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30sp">
+
+        <TextView
+            android:text="Registrar vehiculo"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:layout_marginBottom="15sp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <Spinner
+            android:id="@+id/spIdtipoVeh"
+            android:layout_weight="1"
+            android:minHeight="48sp"
+            android:layout_marginBottom="15sp"
+            android:background="@drawable/edittext_disenio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Spinner
+            android:id="@+id/spIdMarca"
+            android:layout_weight="1"
+            android:minHeight="48sp"
+            android:layout_marginBottom="15sp"
+            android:background="@drawable/edittext_disenio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Spinner
+            android:id="@+id/spIdTipoCom"
+            android:layout_weight="1"
+            android:minHeight="48sp"
+            android:layout_marginBottom="15sp"
+            android:background="@drawable/edittext_disenio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="TouchTargetSizeCheck" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_marginEnd="4sp"
+                android:layout_weight="1"
+                android:id="@+id/edtColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_disenio"
+                android:minHeight="48dp"
+                android:layout_marginBottom="15sp"
+                android:paddingStart="15sp"
+                android:hint="Color"
+                android:inputType="text"/>
+
+            <EditText
+                android:layout_marginEnd="4sp"
+                android:layout_weight="1"
+                android:id="@+id/edtAFab"
+                android:hint="Año fab."
+                android:background="@drawable/edittext_disenio"
+                android:minHeight="48dp"
+                android:layout_marginBottom="15sp"
+                android:paddingStart="15sp"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/edtNumAsiento"
+                android:hint="N° asientos"
+                android:background="@drawable/edittext_disenio"
+                android:minHeight="48dp"
+                android:layout_marginBottom="15sp"
+                android:paddingStart="15sp"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+        <EditText
+            android:id="@+id/edtUrl"
+            android:hint="URL fotografia"
+            android:background="@drawable/edittext_disenio"
+            android:minHeight="48dp"
+            android:layout_marginBottom="15sp"
+            android:paddingStart="15sp"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnGuardarLibro"
+            android:text="Guardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
